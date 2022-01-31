@@ -40,8 +40,8 @@ export default function Login() {
                         <h1 style={{ marginTop: "-60px" }}>Admin login</h1>
                     </Grid>
                     <form>
-                        <TextField id="username" style={{ marginTop: "px" }} label="Username" placeholder='Enter username' variant="standard" fullWidth />
-                        <TextField id="password" style={{ marginTop: "10px" }} type='password' label="Password" placeholder='Enter password' variant="standard" fullWidth />
+                        <TextField id="username" style={{ marginTop: "px" }} label="Username" placeholder='Enter username' variant="standard" fullWidth required/>
+                        <TextField id="password" style={{ marginTop: "10px" }} type='password' label="Password" placeholder='Enter password' variant="standard" fullWidth required/>
 
                         <FormGroup style={{ marginTop: "10px", fontSize: '1px' }}>
                             <FormControlLabel control={<Checkbox />} label="Remember me" />

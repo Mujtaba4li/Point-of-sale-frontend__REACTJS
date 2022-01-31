@@ -43,7 +43,7 @@ export class AddCashier extends Component {
                         <Grid item xs={12} sm={6}>
                             <TextField
                                 autoComplete="given-name"
-                                // required
+                                required
                                 fullWidth
                                 id="firstName"
                                 label="First Name"
@@ -53,7 +53,7 @@ export class AddCashier extends Component {
                         </Grid>
                         <Grid item xs={12} sm={6}>
                             <TextField
-                                // required
+                                required
                                 fullWidth
                                 id="lastName"
                                 label="Last Name"
@@ -65,7 +65,7 @@ export class AddCashier extends Component {
                         </Grid>
                         <Grid item xs={12}>
                             <TextField
-                                // required
+                                required
                                 fullWidth
                                 id="number"
                                 label="Phone Number"
@@ -76,7 +76,7 @@ export class AddCashier extends Component {
                         </Grid>
                         <Grid item xs={12}>
                             <TextField
-                                // required
+                                required
                                 fullWidth
                                 id="email"
                                 label="Email Address"
@@ -87,7 +87,7 @@ export class AddCashier extends Component {
                         </Grid>
                         <Grid item xs={12}>
                             <TextField
-                                // required
+                                required
                                 fullWidth
                                 // name="password"
                                 label="Password"

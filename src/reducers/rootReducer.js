@@ -1,7 +1,10 @@
 import { combineReducers } from 'redux'
 import errorsReducer from './errorsReducer';
+import viewCashierReducer from './viewCashierReducer';
 
 
 export default combineReducers({
-erro:errorsReducer
+error:errorsReducer,
+viewCashiers:viewCashierReducer,
+deleteCashier:viewCashierReducer
 });

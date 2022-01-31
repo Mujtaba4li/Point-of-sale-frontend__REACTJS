@@ -30,6 +30,8 @@ import DeleteCashier from './crud_cashier/DeleteCashier'
 import UpdateCashier from './crud_cashier/UpdateCashier'
 import ViewCashier from './crud_cashier/ViewCashier'
 
+
+
 import {
   
   Switch,
